@@ -7,18 +7,20 @@ The CSV files for each platform are located in the `tickers` folder of the proje
 
 #### Download Links
 
-* **Binance**: [`tickers/binance.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Binance.csv)
-* **Bitget**: [`tickers/bitget.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Bitget.csv)
-* **Coinbase**: [`tickers/coinbase.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Coinbase.csv)
-* **Bybit**: [`tickers/Bybit.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Bybit.csv)
-* **KuCoin**: [`tickers/kucoin.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Kucoin.csv)
-* **Gateio**: [`tickers/Gateio.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Gateio.csv)
-* **MEXC**: [`tickers/mexc.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Mexc.csv)
-* **Blofin**: [`tickers/blofin.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/BloFin.csv)
-* **Kraken**: [`tickers/kraken.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Kraken.csv)
-* **Crypto.com**: [`tickers/crypto.com.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Crypto.com.csv)
-* **OKX**: [`tickers/OKX.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/OKX.csv)
-* **CoinEx**: [`tickers/CoinEx.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/CoinEx.csv)
+| Exchanges    | Spot | Future |
+|--------------|------|-------|
+| Binance      | [`tickers/binance.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Binance.csv)   | Coming soon      |
+| Bitget       | [`tickers/bitget.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Bitget.csv)   | Coming soon      |
+| Coinbase     | [`tickers/coinbase.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Coinbase.csv)   | Coming soon      |
+| Bybit        | [`tickers/Bybit.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Bybit.csv)  | Coming soon      |
+| KuCoin       | [`tickers/kucoin.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Kucoin.csv)   | Coming soon      |
+| Gateio       | [`tickers/Gateio.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Gateio.csv)   | Coming soon      |
+| MEXC         | [`tickers/mexc.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Mexc.csv)   | Coming soon      |
+| Blofin       | [`tickers/blofin.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/BloFin.csv)   | Coming soon      |
+| Kraken       | [`tickers/kraken.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Kraken.csv)   | Coming soon      |
+| Crypto.com   | [`tickers/crypto.com.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Crypto.com.csv)   | Coming soon      |
+| OKX          | [`tickers/OKX.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/OKX.csv)   | Coming soon      |
+| CoinEx       | [`tickers/CoinEx.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/CoinEx.csv)   | Coming soon      |
 
 ### Importing a List into TradingView
 
