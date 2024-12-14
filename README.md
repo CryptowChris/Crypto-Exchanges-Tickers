@@ -1,5 +1,5 @@
 # Crypto-Exchanges-Tickers
-This page allows you to get tickers from popular cryptocurrency exchanges, including Binance, Bitget, KuCoin, MEXC, BingX, and Blofin
+This page allows you to get tickers from popular cryptocurrency exchanges, including Binance, Bitget,Coinbase, KuCoin, MEXC, BingX, and Blofin
 
 ### File Location
 
@@ -9,6 +9,7 @@ The CSV files for each platform are located in the `tickers` folder of the proje
 
 * **Binance**: [`tickers/binance.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Binance.csv)
 * **Bitget**: [`tickers/bitget.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Bitget.csv)
+* **Coinbase**: [`tickers/coinbase.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Coinbase.csv)
 * **KuCoin**: [`tickers/kucoin.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Kucoin.csv)
 * **BingX**: [`tickers/bingx.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/BingX.csv)
 * **MEXC**: [`tickers/mexc.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Mexc.csv)
