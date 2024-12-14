@@ -36,3 +36,5 @@ To use the ticker lists in TradingView, you can import the CSV file containing t
 If you find this helpful and would like to support it, you can make a donation in BTC:
 
 BTC Address (BSC (BEP20)): 0x5306ac8038e62a2d089dbfe6e0ff71b3eadf2003
+
+![BTCQrCode](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/BtcQrCode.png)
