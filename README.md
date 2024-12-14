@@ -31,10 +31,8 @@ To use the ticker lists in TradingView, you can import the CSV file containing t
 4. Click on the name of the watchlist in the right toolbar and select the Import list… function from the menu
 5. Select the CSV file previously downloaded
    
-# Buy me a coffee
+# Buy me a coffee <img src="https://toppng.com/uploads/preview/bitcoin-png-bitcoin-logo-transparent-background-11562933997uxok6gcqjp.png" width="32">
 
 If you find this helpful and would like to support it, you can make a donation in BTC:
 
 BTC Address (BSC (BEP20)): 0x5306ac8038e62a2d089dbfe6e0ff71b3eadf2003
-
-![BTCQrCode](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/BtcQrCode.png)
