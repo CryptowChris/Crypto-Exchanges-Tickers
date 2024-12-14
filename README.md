@@ -1,5 +1,5 @@
 # Crypto-Exchanges-Tickers
-This page allows you to get tickers from popular cryptocurrency exchanges, including Binance, Bitget,Coinbase, KuCoin, MEXC, BingX, and Blofin
+This page allows you to get tickers from popular cryptocurrency exchanges.
 
 ### File Location
 
@@ -11,9 +11,13 @@ The CSV files for each platform are located in the `tickers` folder of the proje
 * **Bitget**: [`tickers/bitget.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Bitget.csv)
 * **Coinbase**: [`tickers/coinbase.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Coinbase.csv)
 * **KuCoin**: [`tickers/kucoin.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Kucoin.csv)
-* **BingX**: [`tickers/bingx.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/BingX.csv)
+* **Gateio**: [`tickers/Gateio.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Gateio.csv)
 * **MEXC**: [`tickers/mexc.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Mexc.csv)
 * **Blofin**: [`tickers/blofin.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/BloFin.csv)
+* **Kraken**: [`tickers/kraken.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Kraken.csv)
+* **Crypto.com**: [`tickers/crypto.com.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Crypto.com.csv)
+* **OKX**: [`tickers/OKX.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/OKX.csv)
+* **CoinEx**: [`tickers/CoinEx.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/CoinEx.csv)
 
 ### Importing a List into TradingView
 
