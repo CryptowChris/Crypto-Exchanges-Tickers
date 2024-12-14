@@ -7,12 +7,12 @@ The CSV files for each platform are located in the `tickers` folder of the proje
 
 #### Download Links
 
-* **Binance**: [`tickers/binance.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/binance_tickers.csv)
-* **Bitget**: [`tickers/bitget.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/bitget_tickers.csv)
-* **KuCoin**: [`tickers/kucoin.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/kucoin_tickers.csv)
-* **BingX**: [`tickers/bingx.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/bingx_tickers.csv)
-* **MEXC**: [`tickers/mexc.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/mexc_tickers.csv)
-* **Blofin**: [`tickers/blofin.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/blofin_tickers.csv)
+* **Binance**: [`tickers/binance.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Binance.csv)
+* **Bitget**: [`tickers/bitget.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Bitget.csv)
+* **KuCoin**: [`tickers/kucoin.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Kucoin.csv)
+* **BingX**: [`tickers/bingx.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/BingX.csv)
+* **MEXC**: [`tickers/mexc.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Mexc.csv)
+* **Blofin**: [`tickers/blofin.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/BloFin.csv)
 
 ### Importing a List into TradingView
 
