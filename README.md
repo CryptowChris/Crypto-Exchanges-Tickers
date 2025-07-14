@@ -9,18 +9,18 @@ The CSV files for each platform are located in the `tickers` folder of the proje
 
 | Exchanges    | Spot | Future |
 |--------------|------|-------|
-| Binance      | [`tickers/binance.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Binance.csv)   | Coming soon      |
-| Bitget       | [`tickers/bitget.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Bitget.csv)   | Coming soon      |
-| Coinbase     | [`tickers/coinbase.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Coinbase.csv)   | Coming soon      |
-| Bybit        | [`tickers/Bybit.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Bybit.csv)  | Coming soon      |
-| KuCoin       | [`tickers/kucoin.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Kucoin.csv)   | Coming soon      |
-| Gateio       | [`tickers/Gateio.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Gateio.csv)   | Coming soon      |
-| MEXC         | [`tickers/mexc.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Mexc.csv)   | Coming soon      |
-| Blofin       | [`tickers/blofin.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/BloFin.csv)   | Coming soon      |
-| Kraken       | [`tickers/kraken.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Kraken.csv)   | Coming soon      |
-| Crypto.com   | [`tickers/crypto.com.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Crypto.com.csv)   | Coming soon      |
-| OKX          | [`tickers/OKX.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/OKX.csv)   | Coming soon      |
-| CoinEx       | [`tickers/CoinEx.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/CoinEx.csv)   | Coming soon      |
+| Binance      | [`tickers/binance.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Binance.csv)   | [`tickers/binance.futures.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Binance.futures.csv)      |
+| Bitget       | [`tickers/bitget.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Bitget.csv)   | [`tickers/bitget.futures.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Bitget.futures.csv)      |
+| Coinbase     | [`tickers/coinbase.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Coinbase.csv)   |       |
+| Bybit        | [`tickers/Bybit.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Bybit.csv)  | [`tickers/Bybit.futures.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Bybit.futures.csv)      |
+| KuCoin       | [`tickers/kucoin.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Kucoin.csv)   | [`tickers/kucoin.futures.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Kucoin.futures.csv)      |
+| Gateio       | [`tickers/Gateio.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Gateio.csv)   | [`tickers/Gateio.futures.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Gatei.futureso.csv)      |
+| MEXC         | [`tickers/mexc.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Mexc.csv)   | [`tickers/mexc.futures.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Mexc.futures.csv)      |
+| Blofin       | [`tickers/blofin.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/BloFin.csv)   | [`tickers/blofin.futures.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/BloFin.futures.csv)      |
+| Kraken       | [`tickers/kraken.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Kraken.csv)   | [`tickers/kraken.futures.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Kraken.futures.csv)      |
+| Crypto.com   | [`tickers/crypto.com.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Crypto.com.csv)   | [`tickers/crypto.com.futures.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Crypto.com.futures.csv)      |
+| OKX          | [`tickers/OKX.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/OKX.csv)   | [`tickers/OKX.futures.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/OKX.futures.csv)      |
+| CoinEx       | [`tickers/CoinEx.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/CoinEx.csv)   | [`tickers/CoinEx.futures.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/CoinEx.futures.csv)      |
 
 ### Importing a List into TradingView
 
