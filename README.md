@@ -21,6 +21,9 @@ The CSV files for each platform are located in the `tickers` folder of the proje
 | Crypto.com   | [`tickers/crypto.com.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Crypto.com.csv)   | [`tickers/crypto.com.futures.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Crypto.com.futures.csv)      |
 | OKX          | [`tickers/OKX.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/OKX.csv)   | [`tickers/OKX.futures.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/OKX.futures.csv)      |
 | CoinEx       | [`tickers/CoinEx.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/CoinEx.csv)   | [`tickers/CoinEx.futures.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/CoinEx.futures.csv)      |
+| Phemex       | [`tickers/Phemex.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Phemex.csv)   | Coming soon      |
+| Poloniex       | [`tickers/Poloniex.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Poloniex.csv)   | Coming soon      |
+| Huobi       | [`tickers/Huobi.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Huobi.csv)   | Coming soon      |
 
 ### Importing a List into TradingView
 
