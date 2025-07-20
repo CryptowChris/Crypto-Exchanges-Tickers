@@ -24,6 +24,9 @@ The CSV files for each platform are located in the `tickers` folder of the proje
 | Phemex       | [`tickers/Phemex.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Phemex.csv)   | Coming soon      |
 | Poloniex       | [`tickers/Poloniex.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Poloniex.csv)   | Coming soon      |
 | Huobi       | [`tickers/Huobi.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Huobi.csv)   | Coming soon      |
+| Bitfinex       | [`tickers/Bitfinex.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Bitfinex.csv)   | Coming soon      |
+| Bitstamp       | [`tickers/Bitstamp.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Bitstamp.csv)   | Coming soon      |
+| Gemini       | [`tickers/Gemini.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Gemini.csv)   | Coming soon      |
 
 ### Importing a List into TradingView
 
