@@ -1,6 +1,10 @@
 # Crypto-Exchanges-Tickers
 This page allows you to get tickers from popular cryptocurrency exchanges.
 
+**✅ All tickers are updated daily.**
+![Updated](https://img.shields.io/github/last-commit/CryptowChris/Crypto-Exchanges-Tickers)
+
+
 ### File Location
 
 The CSV files for each platform are located in the `tickers` folder of the project. You can access them directly from the project directory or download them online using the links provided below.
@@ -18,7 +22,7 @@ The CSV files for each platform are located in the `tickers` folder of the proje
 | MEXC         | [`tickers/mexc.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Mexc.csv)   | [`tickers/mexc.futures.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Mexc.futures.csv)      |
 | Blofin       | [`tickers/blofin.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/BloFin.csv)   | [`tickers/blofin.futures.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/BloFin.futures.csv)      |
 | Kraken       | [`tickers/kraken.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Kraken.csv)   | [`tickers/kraken.futures.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Kraken.futures.csv)      |
-| Crypto.com   | [`tickers/crypto.com.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Crypto.com.csv)   | [`tickers/crypto.com.futures.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Crypto.com.futures.csv)      |
+| Crypto.com   | [`tickers/crypto.com.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Crypto.com.csv)   | [`tickers/cryptocom.futures.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/CryptoCom.futures.csv)      |
 | OKX          | [`tickers/OKX.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/OKX.csv)   | [`tickers/OKX.futures.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/OKX.futures.csv)      |
 | CoinEx       | [`tickers/CoinEx.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/CoinEx.csv)   | [`tickers/CoinEx.futures.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/CoinEx.futures.csv)      |
 | Phemex       | [`tickers/Phemex.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Phemex.csv)   | Coming soon      |
@@ -40,7 +44,7 @@ To use the ticker lists in TradingView, you can import the CSV file containing t
 4. Click on the name of the watchlist in the right toolbar and select the Import list… function from the menu
 5. Select the CSV file previously downloaded
    
-# Buy me a coffee <img src="https://toppng.com/uploads/preview/bitcoin-png-bitcoin-logo-transparent-background-11562933997uxok6gcqjp.png" width="32">
+# ☕ Buy me a coffee <img src="https://toppng.com/uploads/preview/bitcoin-png-bitcoin-logo-transparent-background-11562933997uxok6gcqjp.png" width="32">
 
 If you find this helpful and would like to support it, you can make a donation in BTC:
 
