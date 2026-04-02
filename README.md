@@ -1,53 +1,149 @@
-# Crypto-Exchanges-Tickers
-This page allows you to get tickers from popular cryptocurrency exchanges.
+# 📈 Crypto-Exchanges-Tickers
+
+[![Updated](https://img.shields.io/github/last-commit/CryptowChris/Crypto-Exchanges-Tickers)](https://github.com/CryptowChris/Crypto-Exchanges-Tickers)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+
+This repository centralizes and updates daily the ticker lists for the most popular cryptocurrency exchanges. These lists are designed to be easily imported into [TradingView](https://www.tradingview.com/).
 
 **✅ All tickers are updated daily.**
-![Updated](https://img.shields.io/github/last-commit/CryptowChris/Crypto-Exchanges-Tickers)
 
+---
 
-### File Location
+## 📑 Table of Contents
+- [Description](#-description)
+- [Supported Exchanges](#-supported-exchanges)
+- [Prerequisites](#-prerequisites)
+- [Installation & Usage](#-installation--usage)
+- [Developer Documentation](#-developer-documentation)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Support the Project](#-support-the-project)
 
-The CSV files for each platform are located in the `tickers` folder of the project. You can access them directly from the project directory or download them online using the links provided below.
+---
 
-#### Download Links
+## 📖 Description
 
-| Exchanges    | Spot | Future |
-|--------------|------|-------|
-| Binance      | [`tickers/binance.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Binance.csv)   | [`tickers/binance.futures.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Binance.futures.csv)      |
-| Bitget       | [`tickers/bitget.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Bitget.csv)   | [`tickers/bitget.futures.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Bitget.futures.csv)      |
-| Coinbase     | [`tickers/coinbase.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Coinbase.csv)   |       |
-| Bybit        | [`tickers/Bybit.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Bybit.csv)  | [`tickers/Bybit.futures.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Bybit.futures.csv)      |
-| KuCoin       | [`tickers/kucoin.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Kucoin.csv)   | [`tickers/kucoin.futures.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Kucoin.futures.csv)      |
-| Gateio       | [`tickers/Gateio.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Gateio.csv)   | [`tickers/Gateio.futures.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Gatei.futureso.csv)      |
-| MEXC         | [`tickers/mexc.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Mexc.csv)   | [`tickers/mexc.futures.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Mexc.futures.csv)      |
-| Blofin       | [`tickers/blofin.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/BloFin.csv)   | [`tickers/blofin.futures.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/BloFin.futures.csv)      |
-| Kraken       | [`tickers/kraken.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Kraken.csv)   | [`tickers/kraken.futures.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Kraken.futures.csv)      |
-| Crypto.com   | [`tickers/crypto.com.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Crypto.com.csv)   | [`tickers/cryptocom.futures.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/CryptoCom.futures.csv)      |
-| OKX          | [`tickers/OKX.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/OKX.csv)   | [`tickers/OKX.futures.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/OKX.futures.csv)      |
-| CoinEx       | [`tickers/CoinEx.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/CoinEx.csv)   | [`tickers/CoinEx.futures.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/CoinEx.futures.csv)      |
-| Phemex       | [`tickers/Phemex.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Phemex.csv)   | Coming soon      |
-| Poloniex       | [`tickers/Poloniex.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Poloniex.csv)   | Coming soon      |
-| Huobi       | [`tickers/Huobi.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Huobi.csv)   | Coming soon      |
-| Bitfinex       | [`tickers/Bitfinex.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Bitfinex.csv)   | Coming soon      |
-| Bitstamp       | [`tickers/Bitstamp.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Bitstamp.csv)   | Coming soon      |
-| Gemini       | [`tickers/Gemini.csv`](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/tickers/Gemini.csv)   | Coming soon      |
+The **Crypto-Exchanges-Tickers** project provides CSV files containing trading pairs (tickers) for the Spot and Futures markets of major crypto exchanges. These lists allow traders to bulk import pairs into their TradingView Watchlist quickly, instead of adding them manually one by one.
 
-### Importing a List into TradingView
+---
 
-To use the ticker lists in TradingView, you can import the CSV file containing the tickers into your watchlist or charts. Here's how to do it:
+## 💱 Supported Exchanges
 
-#### Steps to Import Tickers into TradingView
+The CSV files for each platform are located in the `tickers/` folder of the project. You can access them directly from the repository or download them using the links below.
 
-1. Download the CSV file for the exchange you're interested in, using the links above.
-2. Go to TradingView and log into your account.
-3. Click the Advanced view button in the right toolbar
-4. Click on the name of the watchlist in the right toolbar and select the Import list… function from the menu
-5. Select the CSV file previously downloaded
-   
-# ☕ Buy me a coffee <img src="https://toppng.com/uploads/preview/bitcoin-png-bitcoin-logo-transparent-background-11562933997uxok6gcqjp.png" width="32">
+| Exchange | Spot Market | Futures Market |
+|----------|-------------|----------------|
+| **Binance** | [📥 Spot](./tickers/Binance.csv) | [📥 Futures](./tickers/Binance.futures.csv) |
+| **BingX** | [📥 Spot](./tickers/BingX.csv) | [📥 Futures](./tickers/BingX.futures.csv) |
+| **Bitfinex** | [📥 Spot](./tickers/Bitfinex.csv) | ⏳ *Coming soon* |
+| **Bitget** | [📥 Spot](./tickers/Bitget.csv) | [📥 Futures](./tickers/Bitget.futures.csv) |
+| **Bitstamp** | [📥 Spot](./tickers/Bitstamp.csv) | ⏳ *Coming soon* |
+| **BloFin** | [📥 Spot](./tickers/BloFin.csv) | [📥 Futures](./tickers/BloFin.futures.csv) |
+| **Bybit** | [📥 Spot](./tickers/Bybit.csv) | [📥 Futures](./tickers/Bybit.futures.csv) |
+| **Coinbase** | [📥 Spot](./tickers/Coinbase.csv) | [📥 Futures](./tickers/Coinbase.futures.csv) |
+| **CoinEx** | [📥 Spot](./tickers/CoinEx.csv) | [📥 Futures](./tickers/CoinEx.futures.csv) |
+| **Crypto.com** | [📥 Spot](./tickers/Crypto.com.csv) | [📥 Futures](./tickers/CryptoCom.futures.csv) |
+| **Gate.io** | [📥 Spot](./tickers/Gateio.csv) | [📥 Futures](./tickers/Gateio.futures.csv) |
+| **Gemini** | [📥 Spot](./tickers/Gemini.csv) | [📥 Futures](./tickers/Gemini.futures.csv) |
+| **Huobi / HTX** | [📥 Spot](./tickers/Huobi.csv) | [📥 Futures](./tickers/Huobi.futures.csv) |
+| **Kraken** | [📥 Spot](./tickers/Kraken.csv) | [📥 Futures](./tickers/Kraken.futures.csv) |
+| **KuCoin** | [📥 Spot](./tickers/Kucoin.csv) | [📥 Futures](./tickers/Kucoin.futures.csv) |
+| **LBank** | [📥 Spot](./tickers/LBank.csv) | ⏳ *Coming soon* |
+| **MEXC** | [📥 Spot](./tickers/Mexc.csv) | [📥 Futures](./tickers/Mexc.futures.csv) |
+| **OKX** | [📥 Spot](./tickers/OKX.csv) | [📥 Futures](./tickers/OKX.futures.csv) |
+| **Phemex** | [📥 Spot](./tickers/Phemex.csv) | [📥 Futures](./tickers/Phemex.futures.csv) |
+| **Poloniex** | [📥 Spot](./tickers/Poloniex.csv) | ⏳ *Coming soon* |
+| **Weex** | [📥 Spot](./tickers/Weex.csv) | [📥 Futures](./tickers/Weex.futures.csv) |
+| **WhiteBIT** | [📥 Spot](./tickers/Whitebit.csv) | ⏳ *Coming soon* |
 
-If you find this helpful and would like to support it, you can make a donation in BTC:
+*(Note: Dead links from older versions have been fixed and now redirect properly using relative paths)*
 
-BTC Address (BSC (BEP20)): 0x5306ac8038e62a2d089dbfe6e0ff71b3eadf2003
+---
 
-![BTCQrCode](https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/BtcQrCode.png)
+## 🛠 Prerequisites
+
+- A **TradingView** account (free or premium).
+- Optional: A text editor or spreadsheet software (Excel, Google Sheets) if you wish to filter pairs before importing.
+
+---
+
+## 🚀 Installation & Usage
+
+To use these lists in TradingView, you need to import the corresponding `.csv` file into your Watchlist.
+
+### Steps to import tickers:
+
+1. **Download** the `.csv` file for the exchange you are interested in using the links in the table above.
+2. Log in to your account on [TradingView](https://www.tradingview.com/).
+3. Open a chart (Supercharts).
+4. In the right toolbar, click on the **Watchlist** icon.
+5. Click on the name of your current watchlist to open the dropdown menu.
+6. Select **Import list...**.
+7. Choose the previously downloaded `.csv` file.
+
+The list will be automatically loaded and ready to use! 🎉
+
+---
+
+## 👨‍💻 Developer Documentation
+
+Although this project is primarily a data collection, here is how the data is structured if you wish to use it in your own scripts, bots, or applications.
+
+### Data Format
+Each CSV file contains a list of tickers formatted to be compatible with TradingView, following the `EXCHANGE:PAIR` pattern.
+The file has no header, and each line corresponds to a single ticker.
+
+**Extraction example (`tickers/Binance.csv`):**
+```csv
+BINANCE:1000PEPEUSDT
+BINANCE:1INCHBTC
+BINANCE:1INCHUSDT
+```
+
+**Python script example to parse the data:**
+```python
+import csv
+
+def read_tickers(filepath):
+    tickers = []
+    with open(filepath, mode='r', encoding='utf-8') as file:
+        reader = csv.reader(file)
+        for row in reader:
+            if row:
+                tickers.append(row[0])
+    return tickers
+
+# Usage
+binance_tickers = read_tickers('tickers/Binance.csv')
+print(f"{len(binance_tickers)} tickers found on Binance.")
+print(binance_tickers[:5])
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! If you notice a missing exchange, outdated data, or want to make improvements:
+
+1. **Fork** the repository.
+2. Create a new branch for your feature (`git checkout -b feature/NewExchange`).
+3. Place your `.csv` files in the `tickers/` folder with the format `Exchange.csv` (for Spot) and `Exchange.futures.csv` (for Futures).
+4. **Commit** your changes (`git commit -m 'Add support for NewExchange'`).
+5. **Push** to the branch (`git push origin feature/NewExchange`).
+6. Open a **Pull Request**.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT** License. See the [LICENSE](./LICENSE) file for details.
+
+---
+
+## ☕ Support the Project
+
+If you find this project helpful and would like to support its development, you can buy me a coffee in BTC:
+
+**BTC Address (BSC / BEP20):** `0x5306ac8038e62a2d089dbfe6e0ff71b3eadf2003`
+
+<img src="https://github.com/CryptowChris/Crypto-Exchanges-Tickers/blob/main/BtcQrCode.png" width="150" alt="BTC QR Code" />
